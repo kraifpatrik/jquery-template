@@ -7,7 +7,7 @@
   "description": "jQuery plugin for loading and using templates. The plugin supports loading templates from within the page, or using AJAX to load html files.",
   "repository": {
       "type": "git",
-      "url": "https://github.com/codepb/jquery-template.git"
+      "url": "https://github.com/kraifpatrik/jquery-template.git"
   },
   "main": "dist/jquery.loadTemplate.js",
   "keywords": [

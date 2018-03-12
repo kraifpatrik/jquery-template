@@ -10,11 +10,11 @@
         "templating",
         "jquery-plugin"
     ],
-  "bugs": "https://github.com/codepb/jquery-template/issues",
+  "bugs": "https://github.com/kraifpatrik/jquery-template/issues",
   "license": "MIT",
   "repository" : { 
         "type" : "git",
-        "url" : "https://github.com/codepb/jquery-template"
+        "url" : "https://github.com/kraifpatrik/jquery-template"
       },
   "dependencies" : {
     "jquery": ">=1.8"

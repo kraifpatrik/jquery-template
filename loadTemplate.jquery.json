@@ -9,17 +9,17 @@
     "version": "1.5.11",
     "author": {
         "name": "Paul Burgess and other contributors",
-        "url": "https://github.com/codepb/jquery-template"
+        "url": "https://github.com/kraifpatrik/jquery-template"
     },
     "licenses": [
         {
             "type": "MIT",
-            "url": "https://github.com/codepb/jquery-template/blob/master/MIT-LICENSE.txt"
+            "url": "https://github.com/kraifpatrik/jquery-template/blob/master/MIT-LICENSE.txt"
         }
     ],
-    "bugs": "https://github.com/codepb/jquery-template/issues",
-    "homepage": "https://github.com/codepb/jquery-template",
-    "docs": "https://github.com/codepb/jquery-template#jqueryloadtemplate",
+    "bugs": "https://github.com/kraifpatrik/jquery-template/issues",
+    "homepage": "https://github.com/kraifpatrik/jquery-template",
+    "docs": "https://github.com/kraifpatrik/jquery-template#jqueryloadtemplate",
     "dependencies": {
         "jquery": ">=1.8"
     }
