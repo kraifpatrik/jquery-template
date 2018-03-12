@@ -1,6 +1,6 @@
 {
   "name": "jquery.loadtemplate",
-  "version": "1.5.10",
+  "version": "1.5.11",
   "main": "dist/jquery.loadTemplate.js",
   "author": "Paul Burgess",
   "description": "jQuery plugin for loading and using templates. The plugin is designed to be simple yet powerful, and supports loading templates from within the page, or using AJAX to load html files.",

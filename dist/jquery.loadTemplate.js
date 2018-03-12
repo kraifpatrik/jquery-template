@@ -283,6 +283,10 @@
     function bindData(template, data, settings) {
         data = data || {};
 
+        processElements("data-title", template, data, settings, function ($elem, value) {
+            $elem.attr("title", applyFormatters($elem, value, "title", settings));
+        });
+
         processElements("data-content", template, data, settings, function ($elem, value) {
             $elem.html(applyFormatters($elem, value, "content", settings));
         });
@@ -318,19 +322,13 @@
         processElements("data-alt", template, data, settings, function ($elem, value) {
             $elem.attr("alt", applyFormatters($elem, value, "alt", settings));
         });
-        
-        processElements("data-title", template, data, settings, function ($elem, value) {
-            $elem.attr("title", applyFormatters($elem, value, "title", settings));
-        });
 
         processElements("data-id", template, data, settings, function ($elem, value) {
             $elem.attr("id", applyFormatters($elem, value, "id", settings));
         });
 
-        processElements("data-css", template, data, settings, function ($elem, value) {
-            $elem.css(applyFormatters($elem, value, "css", settings))
-        });
-        
+
+
         processElements("data-class", template, data, settings, function ($elem, value) {
             $elem.addClass(applyFormatters($elem, value, "class", settings));
         });
